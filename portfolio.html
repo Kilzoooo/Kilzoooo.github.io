@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head class="cursor">
+
+    <div class="datumzeit">
+        <p id="datetime" style="font-family:'Jet';font-size: 20px;"></p>
+        </div>
+  
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="cursor">
+ 
+ 
+   <!--Portfoilio-->
+<div class="profile-card">
+<div class="avatar">
+    <img src="NEW_PFP_CLEAN.png" alt="Avatar" width="300" height="300" class="avatar">
+</div>
+<div class="content">
+    <h1>I`m Kilian</h1>
+    <p style ="color: rgba(234, 240, 246, 0.8);font-size: 15px;">Learning Frontend Development</p>
+    <div style='display:flex;align-items:center;gap:10px'>
+    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0"></path>
+   <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z"></path>
+</svg>
+     <span>Germany, Bavaria</span>
+    </div>
+    <div style='display:flex;align-items:center;gap:10px'>
+    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+        <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+     </svg>
+    <span>900+ Followers</span>
+    </div>
+    <div style='display:flex;align-items:center;gap:10px'>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-eye" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0"></path>
+            <path d="M21 12c-2.4 4 -5.4 6 -9 6c-3.6 0 -6.6 -2 -9 -6c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6"></path>
+         </svg>
+         <span>500K+ Views</span>
+    </div>    
+
+</div>   
+</div>
+   
+
+
+    <!--Portfolio-->
+
+
+
+
+    <script>
+        var dt = new Date();
+        document.getElementById("datetime").innerHTML = (("0"+dt.getDate()).slice(-2)) +"."+ (("0"+(dt.getMonth()+1)).slice(-2)) +"."+ (dt.getFullYear()) +" "+ (("0"+dt.getHours()).slice(-2)) +":"+ (("0"+dt.getMinutes()).slice(-2));
+        </script>
+
+<div class="navbar">
+    <center>
+    <a href="index.html"><font color="#000000">Home</font></a>
+    <a href="portfolio.html"><font color="#000000">Profile-Card</font></a>
+    
+    
+    </center>   
+    #fffedf
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head class="cursor">
+    <div class="datumzeit">
+        <p id="datetime" style="font-family:'Jet';font-size: 20px;"></p>
+        </div>
+               
+<div class="stats">
+    <p>M14 Jahre alt.</p>
+    <p>Lerne gerade Html und CSS.</p>
+        <p>Roadmap:</p>
+</div>
+<center><div class="roadmap"><p>Html✅->Css✅->JS❌->React.js❌->Frontend Web Developer🏁</p></div></center>
+          
+    </div>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Über-mich</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="cursor">
+
+    
+
+
+
+
+
+
+
+
+    <div class="navbar">
+        <center>
+        <a href="index.html"><font color="#000000">Home</font></a>
+        <a href="portfolio.html"><font color="#000000">Profile-Card</font></a>
+        <!--<a href="uebermich.html"><font color="#000000">Über-mich</font></a>-->
+        
+        </center>   
+        #fffedf
+      </div>
+
+    <script>
+        var dt = new Date();
+        document.getElementById("datetime").innerHTML = (("0"+dt.getDate()).slice(-2)) +"."+ (("0"+(dt.getMonth()+1)).slice(-2)) +"."+ (dt.getFullYear()) +" "+ (("0"+dt.getHours()).slice(-2)) +":"+ (("0"+dt.getMinutes()).slice(-2));
+        </script>
+</body>
+</html>
